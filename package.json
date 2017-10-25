@@ -1,0 +1,16 @@
+{
+  "name": "renogy-rover",
+  "version": "0.0.1",
+  "description": "renogy rover MPPT controller monitor.",
+  "main": "renogy-rover.js",
+  "scripts": {
+    "start": "node ./renogyapp.js"
+  },
+  "author": "MenloParkInnovation LLC",
+  "license": "MIT",
+  "keywords": [],
+  "dependencies": {
+    "modbus-serial": "^6.0.1",
+    "serialport": "^4.0.7"
+  }
+}
