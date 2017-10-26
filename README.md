@@ -93,7 +93,7 @@ PC, or Mac.
 
 ###### Monitoring Utility
 
-export RENOGY_ROVER_PORT /dev/someport
+export RENOGY_ROVER_PORT=/dev/someport
 
 export RENOGY_ROVER_INTERVAL=30
 
