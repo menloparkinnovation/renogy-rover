@@ -1,6 +1,6 @@
 {
   "name": "renogy-rover",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "renogy rover MPPT controller monitor.",
   "main": "renogy-rover.js",
   "scripts": {
