@@ -436,7 +436,11 @@ RenogyRover.prototype.readHoldingRegisters = function(base, length, callback)
     }
 }
 
+
+
 function dumpasjson (ob) {
+
+      var util = require('util');
 
       //
       // Dump data as JSON
