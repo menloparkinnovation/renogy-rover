@@ -436,6 +436,25 @@ RenogyRover.prototype.readHoldingRegisters = function(base, length, callback)
     }
 }
 
+function dumpasjson (ob) {
+
+      //
+      // Dump data as JSON
+      //
+      // null is full depth, default is 2
+      //
+      // http://nodejs.org/api/util.html#util_util_inspect_object_options
+      //
+      //var inspectOptions = { showHidden: true, depth: null };
+      //
+      var inspectOptions = { showHidden: true, depth: null,
+                       customInspect: false, colors: true };
+
+      var dumpdata = util.inspect(ob, inspectOptions);
+
+      console.log(dumpdata);
+}
+
 RenogyRover.prototype.tracelog = function(config, message) {
     if (this.trace) {
         console.log(message);
